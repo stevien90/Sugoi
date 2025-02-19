@@ -1,0 +1,122 @@
+/* Global Styles */
+body {
+  background-color: #121212; /* Dark Gray background */
+  color: #ffffff; /* White text for readability */
+  font-family: "Roboto", sans-serif; /* Default font */
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffff; /* White color for headings */
+  font-family: "Montserrat", sans-serif; /* Use Montserrat for headings */
+}
+
+/* Button Styles */
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+/* Action Buttons */
+.btn-primary {
+  background-color: #3a9d9d; /* Teal background */
+  color: #ffffff; /* White text */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #338d8d; /* Slightly darker teal on hover */
+}
+
+/* Secondary Action Buttons (if needed) */
+.btn-secondary {
+  background-color: #ff7043; /* Orange background */
+  color: #ffffff; /* White text */
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #e65c33; /* Slightly darker orange on hover */
+}
+
+/* Success or Progress Labels (e.g., "Completed") */
+.success-label {
+  color: #66bb6a; /* Soft Green for success/progress */
+}
+
+.progress-label {
+  color: #66bb6a; /* Soft Green for progress labels */
+}
+
+/* Warning or In-Progress States (e.g., "Rest") */
+.in-progress-label {
+  color: #ff7043; /* Orange for in-progress or warning states */
+}
+
+/* Error Messages */
+.error-message {
+  color: #ff6f61; /* Red for error messages */
+  font-weight: bold;
+}
+
+/* General Input Fields (like text fields or number inputs) */
+input,
+textarea,
+select {
+  background-color: #2c2c2c; /* Dark background for inputs */
+  color: #ffffff; /* White text */
+  border: 1px solid #3a3a3a; /* Dark gray border */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #3a9d9d; /* Teal border on focus */
+  outline: none;
+}
+
+/* Containers and Cards (for general sections) */
+.container {
+  padding: 20px;
+}
+
+.card {
+  background-color: #1c1c1c; /* Dark gray for cards */
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  color: #ffffff; /* White text */
+}
+
+/* Divider Lines */
+.divider {
+  border-bottom: 1px solid #3a3a3a; /* Dark border for dividers */
+  margin: 10px 0;
+}
+
+/* Typography for Labels (general text labels) */
+.label {
+  font-weight: 600; /* Make labels slightly bolder */
+  color: #ffffff; /* White text for labels */
+}
+
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif; /* Ensure headings use Montserrat */
+}
+
+/* Scrollable Containers */
+.scroll-container {
+  max-height: 400px;
+  overflow-y: auto;
+  padding: 10px;
+  background-color: #1c1c1c; /* Dark background for scrollable areas */
+  border-radius: 8px;
+}

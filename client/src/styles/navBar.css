@@ -1,0 +1,23 @@
+.navButton,
+.navBurger {
+  color: #ffffff;
+  border-color: #ffffff !important;
+}
+
+.TR {
+  font-size: 30px;
+  color: inherit;
+}
+.TR:hover {
+  color: inherit;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  width: 100px;
+}
+
+.navbar-brand.mx-auto {
+  font-size: 40px;
+  width: 30px;
+}
