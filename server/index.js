@@ -13,6 +13,7 @@ import categoryRoutes from "./routes/categoryRoutes.js";
 import workoutRoutes from "./routes/workoutRoutes.js";
 import workoutLogRoutes from "./routes/workoutLogRoutes.js";
 import routineProgRoutes from "./routes/routineProgRoutes.js";
+import db from "./db.js";
 
 dotenv.config();
 //This is where you get your directory path currently going to server folder
