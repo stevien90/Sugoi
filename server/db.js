@@ -1,8 +1,8 @@
 import { Client } from "pg";
 
 const client = new Client({
-  connectionString: process.env.DATABASE_URL,
-  ssl: { rejectUnauthorized: false }, // required by Heroku
+  connectionString: process.env.SCHEMATOGO_URL,
+  ssl: { rejectUnauthorized: false },
 });
 
 client.connect();
