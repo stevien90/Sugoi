@@ -100,8 +100,7 @@ Open a Pull Request
 ### License
 This project is open-source and available under the MIT License.
 
-###
-Notes
+### Notes
 The project is a work-in-progress and currently supports user authentication, routine creation, workout logging, and user progress tracking.
 The progress tracker feature is in development and will be released soon.
 Future improvements will include better UI, progress graphs, and more advanced features such as workout history and workout recommendations.
